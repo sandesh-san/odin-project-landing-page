@@ -1,7 +1,8 @@
+/* Fonts used in the webpage*/
 *{
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
-    
+ /* Top Header Bar/ Navigation links section */   
 .header-bar{
     background-color: #1f2937;
     display: flex;
@@ -29,6 +30,7 @@ a{
     color: inherit;
     text-decoration: inherit;
 }
+/* About website section */
 .about-website{
     background-color: #1f2937;
     display: flex;
@@ -70,9 +72,9 @@ a{
     background-color: lightgrey;
     text-align :center;    
     width: 500px;
-    height: 275px;
-    
+    height: 275px;    
 }
+/* Random Information section */
 .random-info{
     background-color: #f9faf8;
     display: flex;
@@ -101,11 +103,12 @@ a{
     text-align: center;    
 }
 img{
+    border: 5px solid lightblue;
     border-radius: 10px;
     height: 100px;
     width: 100px;
 }
-
+/*  Quote Section */
 .quote-section{
     background-color: #e5e7eb;
     width: auto;
@@ -125,6 +128,7 @@ img{
     font-weight: bold;
     text-align: right;
 }
+/* Sign Up bar section */
 .call-to-action-section{
     width: auto;
     height: 300px;
@@ -161,13 +165,12 @@ img{
     font-size: 18px;
     color: #e5e7eb;
  }
+ /* Footer Section */
  .footer-section{
-     height: 75px;
+     height: auto;
      width: auto;
      background-color: #1f2937;
      text-align: center;
-    padding-top: 25px;
-    color: #f9faf8;    
- }
-
- 
+     color: #f9faf8; 
+     padding: 5px;
+}
